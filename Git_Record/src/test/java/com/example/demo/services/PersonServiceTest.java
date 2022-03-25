@@ -12,10 +12,9 @@ import com.example.demo.repository.PersonRepository;
 
 public class PersonServiceTest {
 
-	 @Mock
+	    @Mock
 	    private PersonRepository personRepo;
-
-
+            @Mock
 	    private PersonService personService;
 
 	    @BeforeEach
