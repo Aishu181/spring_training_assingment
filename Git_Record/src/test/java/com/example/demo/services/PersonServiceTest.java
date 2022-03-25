@@ -9,7 +9,7 @@ import org.mockito.Mock;
 import com.example.demo.repository.PersonRepository;
 
 
-
+@SpringBootTest
 public class PersonServiceTest {
 
 	    @Mock
