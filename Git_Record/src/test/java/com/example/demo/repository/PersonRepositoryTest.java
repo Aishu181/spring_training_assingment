@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import com.example.demo.model.Person;
 
 
-
+@SpringBootTest
 public class PersonRepositoryTest {
 
 	@Autowired
